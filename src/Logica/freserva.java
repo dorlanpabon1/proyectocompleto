@@ -157,7 +157,7 @@ public class freserva {
         }
     }
     public boolean pagar(vreserva dts) {
-        sSQL = "update reserva set estado='Pagada"
+        sSQL = "update reserva set estado='Pagada'"
                 + " where idreserva=?";
         try {
             PreparedStatement pst = cn.prepareStatement(sSQL);

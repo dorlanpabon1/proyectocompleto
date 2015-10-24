@@ -690,7 +690,7 @@ public class frmpago extends javax.swing.JInternalFrame {
                 freserva func3 = new freserva();
                 vreserva dts3 = new vreserva();
 
-                dts3.setIdhabitacion(Integer.parseInt(txtidhabitacion.getText()));
+                dts3.setIdreserva(Integer.parseInt(txtidhabitacion.getText()));
                 func3.pagar(dts3);
 
             }

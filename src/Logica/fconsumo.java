@@ -27,7 +27,7 @@ public class fconsumo {
 
         DefaultTableModel modelo;
 
-        String[] titulos = {"ID", "idreserva", "idproducto", "producto", "cantidad","precio venta","estado"};
+        String[] titulos = {"ID", "idreserva","idproducto","producto","cantidad","precio venta","estado"};
 
         String[] registro = new String[7];
 
@@ -105,7 +105,7 @@ public class fconsumo {
             pst.setString(5, dts.getEstado());
             pst.setInt(6, dts.getIdconsumo());
 
-            pst.setInt(5, dts.getIdproducto());
+            
             int n = pst.executeUpdate();
 
             if (n != 0) {
